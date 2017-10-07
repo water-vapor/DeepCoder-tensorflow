@@ -6,12 +6,12 @@ I did not implement the DSL, because it is too time consuming, instead, I used
 the implementation from [this repo](https://github.com/HiroakiMikami/deep-coder).
 
 Unfortunately, the original author did not include a license. To prevent copyright infringement,
-I did not forked that repo and modify directly. Instead, I publish the code needed to assemble
+I did not fork that repo and modify directly on github. Instead, I publish the code needed to assemble
 a working version.
 
 Building
 ---
-Please refer to the guide in the original repo. You may need to compile gtest and the program with option
+Please refer to the guide in the original repo. You may need to compile `gtest` and the program with option
 `` -DCMAKE_CXX_COMPILER=`which g++-6` -DCMAKE_C_COMPILER=`which gcc-6` `` for cmake. Make sure the code is
 working before proceeding to the next step.
 
