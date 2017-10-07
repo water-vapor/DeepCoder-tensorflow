@@ -17,6 +17,7 @@ working before proceeding to the next step.
 
 Generating Code for tensorflow
 ---
+Download the source code from the original repo: (this commit)[https://codeload.github.com/HiroakiMikami/deep-coder/zip/b11a07d4d2113f69d2ea69015c35db18879e7758].
 There are two python scripts that will generate the appropriate files from the original source code.
 Navigate to `DeepCoder-tensorflow` folder. `deep-coder-master` refers to the folder of the original repo.
 ```bash
